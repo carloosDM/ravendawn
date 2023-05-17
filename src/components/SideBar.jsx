@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <Link to="/">
-                <img src="/public/img/beer.png" alt="beer"/>
+                <img src="/img/beer.png" alt="beer"/>
             </Link>
             <p>Ravendawn Tavern</p>
             <Link to="/hunts">
