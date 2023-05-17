@@ -5,39 +5,16 @@
 
 .navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  margin-right: 5%;
 }
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li {
+.navbar p {
   margin-right: 10px;
+  color: black;
+  font-size: large;
 }
 
-.nav-links li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.nav-links li a:hover {
-  color: #555;
-}
-
-@media (max-width: 300px) {
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-links li {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
+.navbar p :hover{
+  margin-right: 10px;
+  color: rgb(98, 80, 234);
 }

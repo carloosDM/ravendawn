@@ -1,22 +1,23 @@
 import './SideBar.css';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
 
     return (
         <div className="sidebar">
-            <a href="https://www.example.com">
+            <Link to="/">
                 <img src="/public/img/beer.png" alt="beer"/>
-            </a>
+            </Link>
             <p>Ravendawn Tavern</p>
-            <a href="https://www.example.com">
+            <Link to="/hunts">
                 <i className="fas fa-search"></i>
-            </a>
+            </Link>
             <p>Hunts</p>
-            <a href="https://www.example.com">
+            <Link to="/events">
                 <i className="far fa-calendar-alt"></i>
-            </a>
+            </Link>
             <p>Events</p>
-            <a href="https://ravendawndb.com">
+            <a href="https://ravendawndb.com" target='blank'>
                 <i className="fas fa-database"></i>
             </a>
             <p>DataBase</p>

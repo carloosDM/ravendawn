@@ -14,7 +14,7 @@ const LoginForm = () => {
 
     return (
         <form className="login-form" onSubmit={handleSubmit}>
-            <h2>Bem Vindo Denovo!</h2>
+            <h2>Bem Vindo Novamente!</h2>
             <input
                 type="text"
                 placeholder="Username"

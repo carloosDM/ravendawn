@@ -15,7 +15,7 @@ const RegisterForm = () => {
 
   return (
     <form className="register-form" onSubmit={handleSubmit}>
-      <h2>Register</h2>
+      <h2>Cadastre-se:</h2>
       <div className="input-container">
         <input
           type="text"
